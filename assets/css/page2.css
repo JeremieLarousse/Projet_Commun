@@ -31,7 +31,7 @@ nav ul.tableau li.btn:hover a{
 
 #imageFfe{
     margin-left: 670px;
-  }
+}
 
   .tableau{
     display: flex;
@@ -41,8 +41,7 @@ nav ul.tableau li.btn:hover a{
     background-color: white;
     padding: 10px;
     text-transform: uppercase;
-    justify-content: space-evenly;
-    /* text-align: center; */
+    justify-content: space-evenly;  
 }
 
 #entrer{
@@ -52,7 +51,10 @@ nav ul.tableau li.btn:hover a{
     margin-left:52em;
     background-color: aqua;
     color: black;
+    border: black solid 2px;
 }
+
+
 
 button{
     background-color: greenyellow;
@@ -73,33 +75,30 @@ button{
     margin-left: 630px;
 }
 
-
 li{
     text-decoration: none;
     list-style-type: none;
     text-align: center;
+    color: chartreuse;
+    text-transform: uppercase;
+    
 }
 
 footer{
     width: 100%;
-    
     position: absolute;
     bottom: 0;
     display: flex;
     background-color: rgb(25 41 75 / 75%);
     }
     
-    #gauche{
-        color: white;
-       
-        margin-left: 30px;
-        
-        
-    }  
+#gauche{
+    color: white; 
+    margin-left: 30px; 
+}  
     
-    #droite{   
-        color: white;
-       
-        margin-left: 1300px;
-        text-align: right;  
-    }
+#droite{   
+    color: white; 
+    margin-left: 1300px;
+    text-align: right;  
+}

@@ -5,7 +5,6 @@ body{
     width: auto;
 }
 
-
 @media all and(max-width:480px){
     h1{float: none;}
     #imageFfe{float: none;}
@@ -31,8 +30,16 @@ h1{
     background-color: ivory;
     padding: 10px;
     text-transform: uppercase;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;  
+}
+
+#sexe{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    width: 210px;
+    border: solid black 2px;
 }
 
 a{
@@ -46,8 +53,6 @@ nav ul.tableau li.btn:hover a{
     transition: 0.20 all;
 }
 
-
-
 li .navbar a{
     text-decoration: none;
     list-style-type: none;
@@ -55,15 +60,12 @@ li .navbar a{
 
 .questionnaire{
     text-align: center;
-    /* margin: auto; */
     margin-left: 100px;  
     position: relative;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 
-.tableauGlobal{
-    
+.tableauGlobal{  
     margin-left: 220px;
 }
 
@@ -73,6 +75,7 @@ li .navbar a{
     text-align: center;
     text-transform: uppercase;
     width: 210px;
+    border: solid black 2px;
 }
 
 
@@ -99,26 +102,19 @@ button{
 
 footer{
     width: 100%;
-    
     position: absolute;
     bottom: 0;
     display: flex;
     background-color: rgb(25 41 75 / 75%);
-    }
+}
     
-    #gauche{
-        color: white;
-        
-        margin-left: 30px;
-        
-        
-    }  
+#gauche{
+    color: white;
+    margin-left: 30px;  
+}  
     
-    #droite{   
-        color: white;
-       
-        
-        margin-left: 1300px;
-        text-align: right;
-        
-    }
+#droite{   
+    color: white;  
+    margin-left: 1300px;
+    text-align: right;  
+}
