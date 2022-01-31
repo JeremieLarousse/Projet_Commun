@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    width: auto;
+}
+
+
+@media all and(max-width:480px){
+    h1{float: none;}
+    #imageFfe{float: none;}
+    .tableau{float: none;}
+    .questionnaire{float: none;}
+    button{float: none;}
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+#imageFfe{
+  margin-left: 670px;
+}
+
+.tableau{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    background-color: ivory;
+    padding: 10px;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+li .navbar a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.questionnaire{
+    text-align: center;
+    /* margin: auto; */
+    margin-left: 100px;  
+    position: relative;
+    text-transform: uppercase;
+    
+}
+
+.tableauGlobal{
+    
+    margin-left: 220px;
+}
+
+.renseignements{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    width: 210px;
+}
+
+
+button{
+    background-color: greenyellow;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 6px 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 50px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/page1.css">
+</head>
+<body>
+
+<header>
+<h1>Fédération française d'Escrime</h1>
+</header>
+
+<img id="imageFfe" width="200px"  src="../img/ffe.jpg" alt="">
+
+<div>
+    <nav>
+        <ul class="tableau">
+            <li class="navbar"><a href="">Acceuil</a></li>
+            <li class="navbar"><a href="">Admin</a></li>
+            <li class="navbar"><a href="">Deconnection</a></li>
+        </ul>
+    </nav>
+</div>
+
+<table class="tableauGlobal">
+    <thead class="questionnaire">       
+        <tr>
+        <th class="essai">Nom</th>
+        <th>Prénom</th>
+        <th>Date de naissance</th>
+        <th>Sexe</th>
+        <th>Prescripteur</th>
+        </tr>
+    </thead>
+    <tr>
+        <!-- <td><input type="text" placeholder="Entrez votre nom" id="nom"></td>
+        <td><input type="text" placeholder="Entrez votre prénom" id="prenom"></td>
+        <td><input type="text" placeholder="Entrez votre date de naissance" id="date"></td>
+        <td><input type="text" placeholder="Entrez votre sexe" id="sexe"></td>
+        <td><input type="text" placeholder="Entrez votre prescripteur" id="prescripteur"></td> -->
+        <td><input type="text" placeholder="Entrez votre nom" class="renseignements"></td>
+        <td><input type="text" placeholder="Entrez votre prénom" class="renseignements"></td>
+        <td><input type="text" placeholder="Entrez date de naissance" class="renseignements"></td>
+        <td><input type="text" placeholder="Entrez votre sexe" class="renseignements"></td>
+        <td><input type="text" placeholder="Entrez votre prescripteur" class="renseignements"></td>
+    </tr>
+</table>
+
+<a href="../pages/page2.html"><button onclick="envoyer()" classe="envoyer">Envoyer</button></a>
+
+    <script src="../js/page1.js"></script>
+    
+</body>
+</html>

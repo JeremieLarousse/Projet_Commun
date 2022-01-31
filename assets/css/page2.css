@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    width: auto;
+}
+
+@media all and(max-width:480px){
+    h1{float: none;}
+    #imageFfe{float: none;}
+    .tableau{float: none;}
+    button{float: none;}
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#imageFfe{
+    margin-left: 670px;
+  }
+
+  .tableau{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+}
+
+#entrer{
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    margin-left:50em;
+    background-color: aqua;
+    color: black;
+}
+
+button{
+    background-color: greenyellow;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 6px 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
