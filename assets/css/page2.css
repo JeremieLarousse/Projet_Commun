@@ -23,7 +23,11 @@ a{
     color: black;
 }
 
-
+nav ul.tableau li.btn:hover a{
+    color: black;
+    background-color: rgb(25 41 75 / 75%);
+    transition: 0.20 all;
+}
 
 #imageFfe{
     margin-left: 670px;
@@ -38,13 +42,14 @@ a{
     padding: 10px;
     text-transform: uppercase;
     justify-content: space-evenly;
+    /* text-align: center; */
 }
 
 #entrer{
     text-align: center;
     justify-content: center;
     margin: 10px auto;
-    margin-left:50em;
+    margin-left:52em;
     background-color: aqua;
     color: black;
 }
@@ -67,3 +72,34 @@ button{
     margin-top: 50px;
     margin-left: 630px;
 }
+
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background-color: rgb(25 41 75 / 75%);
+    }
+    
+    #gauche{
+        color: white;
+       
+        margin-left: 30px;
+        
+        
+    }  
+    
+    #droite{   
+        color: white;
+       
+        margin-left: 1300px;
+        text-align: right;  
+    }

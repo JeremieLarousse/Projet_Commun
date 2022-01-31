@@ -1,8 +1,12 @@
+
 body{
     margin: 0;
     padding: 0;
     background-color: grey;
     margin: auto;
+    height: 100%;
+    overflow-x:hidden;  
+
 }
 
 @media all and(max-width:480px){
@@ -22,8 +26,8 @@ body{
     border-radius: 20%;
     justify-content: center;
  
-    margin-top: 13%;
-    margin-left: 30%;
+    margin-top: 15%;
+    margin-left: 34%;
     
 }
 
@@ -60,3 +64,28 @@ button{
     border-radius: 6px;
 }
 
+
+footer{
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background-color: rgb(25 41 75 / 75%);
+    }
+    
+    #gauche{
+        color: white;
+        
+        margin-left: 30px;
+        
+        
+    }  
+    
+    #droite{   
+        color: white;
+     
+        margin-left: 1300px;
+        text-align: right;
+        
+    }
