@@ -1,16 +1,79 @@
-body{
-    padding: 0;
+html{
+    position: relative;
+     min-height: 100%;
+   } 
+   
+   body{
     margin: 0;
+    padding: 0;
     background-color: grey;
-    width: auto;
+    margin: auto; 
+    overflow-y: hidden;
+    overflow-x: hidden; 
 }
 
-@media all and(max-width:480px){
-    h1{float: none;}
-    #imageFfe{float: none;}
-    .tableau{float: none;}
-    .questionnaire{float: none;}
-    button{float: none;}
+   
+
+@media screen and (max-width:800px){
+
+    h1{
+        width: 100%;
+        margin-left: 50%;
+        text-align: center;
+    }
+    #imageFfe{
+        
+        
+        margin-left: 600px;
+    }
+    .tableau{ 
+        
+        
+        margin-left: 300px;
+
+        
+    }
+    .tableauGlobal{
+        flex-direction: column;
+        height: auto;
+        display: block;
+        
+    }
+    .questionnaire{
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    .informations{
+    flex-direction: column;
+        height: auto;
+        
+    }
+
+    .renseignements{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .envoyer{
+        margin-left: 300px;
+
+    }
+
+    #duel{
+        display: none;
+    }
+    footer{
+        display: flex;
+        margin-top: auto;
+    }
+    #gauche{
+        float: none;
+    }
+    #droite{
+        float: none;
+    }
 }
 
 h1{
@@ -19,7 +82,7 @@ h1{
 }
 
 #imageFfe{
-  margin-left: 670px;
+    margin-left: 43%;
 }
 
 .tableau{
@@ -27,10 +90,11 @@ h1{
     list-style-type: none;
     text-align: center;
     justify-content: center;
-    background-color: ivory;
+    background-color: white;
     padding: 10px;
     text-transform: uppercase;
     justify-content: space-evenly;  
+    width: 100%;
 }
 
 #sexe{
@@ -40,6 +104,7 @@ h1{
     text-transform: uppercase;
     width: 210px;
     border: solid black 2px;
+    height: 20px;
 }
 
 a{
@@ -60,13 +125,13 @@ li .navbar a{
 
 .questionnaire{
     text-align: center;
-    margin-left: 100px;  
+    margin-left: 45%; 
     position: relative;
     text-transform: uppercase; 
 }
 
 .tableauGlobal{  
-    margin-left: 220px;
+    margin-left: 14%;
 }
 
 .renseignements{
@@ -76,8 +141,8 @@ li .navbar a{
     text-transform: uppercase;
     width: 210px;
     border: solid black 2px;
+    height: 15px;
 }
-
 
 button{
     background-color: greenyellow;
@@ -92,29 +157,32 @@ button{
     box-sizing: border-box;
     border-radius: 6px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 2%;
 }
 
 #duel{
-   margin-top: 30px;
-   margin-left: 350px;
+   margin-top: 2%;
+   margin-left: 20%;
 }
 
 footer{
-    width: 100%;
-    position: absolute;
     bottom: 0;
     display: flex;
     background-color: rgb(25 41 75 / 75%);
+    margin-top: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
     
 #gauche{
     color: white;
-    margin-left: 30px;  
+    margin-left: 5%;
 }  
     
 #droite{   
     color: white;  
-    margin-left: 1300px;
+    margin-left: 80%;
     text-align: right;  
 }

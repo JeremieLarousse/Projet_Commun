@@ -1,29 +1,74 @@
+ html{
+    position: relative;
+    min-height: 100%;
+} 
+
 body{
     margin: 0;
     padding: 0;
     background-color: grey;
-    margin: auto;
-    height: 100%;
-    overflow-x:hidden;  
+    margin: auto; 
+    overflow-y: hidden;
+    overflow-x: hidden; 
 }
 
-@media all and(max-width:480px){
-    #texteCentral{float: none;}
-    #pseudo{float: none;}
-    #mdp{float: none;}
-    input{float: none;}
-    button{float: none;}
+@media screen and (max-width:800px){
+    #texteCentral{  
+        max-width: 100vw;
+    }
+    #pseudo{
+        text-align: center;
+        
+    }
+    #mdp{
+        text-align: center
+        
+    }
+    input{
+        display: block;
+        margin: 10px auto;
+        
+        padding: 6px 10px;
+        outline:none;
+        border: none;
+        box-sizing: border-box;
+        border-radius: 6px;
+        max-width: 50vw;
+    }
+    button{
+        background-color: greenyellow;
+        font-weight: bold;
+        cursor: pointer;
+        display: block;
+        margin: 10px auto;
+        
+        padding: 6px 10px;
+        outline: none;
+        border: none;
+        box-sizing: border-box;
+        border-radius: 6px;
+        max-width: 50vw;
+    }
+    footer{
+        display: flex;
+        margin-top: auto;
+    }
+    #gauche{
+        float: none;
+    }
+    #droite{
+        float: none;
+    }
 }
 
 #texteCentral{
     width: 500px;
-  
     background-color: rgb(0, 0, 0,0.4);
     padding: 60px;
     box-sizing: border-box;
     border-radius: 20%;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 12%;
     margin-left: 34%;
 }
 
@@ -60,22 +105,24 @@ button{
     border-radius: 6px;
 }
 
-
 footer{
-    width: 100%;   
-    position: absolute;
     bottom: 0;
     display: flex;
     background-color: rgb(25 41 75 / 75%);
+    margin-top: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
     
 #gauche{
     color: white;
-    margin-left: 30px; 
+    margin-left: 5%;
 }  
     
 #droite{   
     color: white;
-    margin-left: 1300px;
+    margin-left: 80%;
     text-align: right; 
 }
