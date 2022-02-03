@@ -12,70 +12,6 @@ html{
     overflow-x: hidden; 
 }
 
-   
-
-@media screen and (max-width:800px){
-
-    h1{
-        width: 100%;
-        margin-left: 50%;
-        text-align: center;
-    }
-    #imageFfe{
-        
-        
-        margin-left: 600px;
-    }
-    .tableau{ 
-        
-        
-        margin-left: 300px;
-
-        
-    }
-    .tableauGlobal{
-        flex-direction: column;
-        height: auto;
-        display: block;
-        
-    }
-    .questionnaire{
-        flex-direction: column;
-        height: auto;
-        
-    }
-
-    .informations{
-    flex-direction: column;
-        height: auto;
-        
-    }
-
-    .renseignements{
-        flex-direction: column;
-        height: auto;
-    }
-
-    .envoyer{
-        margin-left: 300px;
-
-    }
-
-    #duel{
-        display: none;
-    }
-    footer{
-        display: flex;
-        margin-top: auto;
-    }
-    #gauche{
-        float: none;
-    }
-    #droite{
-        float: none;
-    }
-}
-
 h1{
     color: blue;
     text-align: center;
@@ -144,6 +80,16 @@ li .navbar a{
     height: 15px;
 }
 
+.date{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    width: 210px;
+    border: solid black 2px;
+    height: 15px;
+}
+
 button{
     background-color: greenyellow;
     font-weight: bold;
@@ -186,3 +132,119 @@ footer{
     margin-left: 80%;
     text-align: right;  
 }
+
+@media screen and (max-width:480px){
+
+    h1{
+        width: 100%;
+        margin-left: 90%;
+    }
+    #imageFfe{
+        margin-left: 100%;
+    }
+    .tableau{ 
+        
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-left: 80%;
+    }
+    .tableauGlobal{
+        flex-direction: column;
+        height: auto;
+        display: block; 
+    }
+    
+    .date{
+        flex-direction: column;
+        height: 18px;
+    }
+
+    button{
+        margin-left: 87%;
+        margin-top: 2%;
+    }
+
+    #duel{
+        margin-left: 5px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    h1{
+        width: 100%;
+        margin-left: 10%; 
+    }
+    #imageFfe{
+        margin-left: 50%;
+    }
+    .tableau{   
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-left: 10%;   
+    }
+    .tableauGlobal{
+        height: 35px;
+        display: block;
+    }
+    
+    .date{
+        flex-direction: column;
+        height: 18px;
+    }
+    button{
+        margin-left: 45%;
+        margin-top: 2%;
+    }
+
+    #duel{
+        display: none;
+    }
+    footer{
+        display: flex;
+        margin-top: auto;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+    h1{
+        width: 100%;
+        margin-left: 10%;
+    }
+    #imageFfe{
+        display: none;
+    }
+    .tableau{ 
+        
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .tableauGlobal{
+        flex-direction: column;
+        height: auto;
+        display: block;
+    }
+    
+    .date{
+        flex-direction: column;
+        height: 18px;
+    }
+
+    button{
+        margin-left: 40%;
+        margin-top: 2%;
+    }
+
+    #duel{
+       display: none;
+    }
+    footer{
+        display: flex;
+        margin-top: auto;
+    }
+}
+
+
