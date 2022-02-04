@@ -107,8 +107,8 @@ button{
 }
 
 #duel{
-   margin-top: 2%;
-   margin-left: 20%;
+    margin-top: 2%;
+    margin-left: 20%;
 }
 
 footer{
@@ -176,7 +176,7 @@ footer{
     }
 }
 
-@media (min-width:481px) and (max-width:768px){
+@media (min-width:481px) and (max-width:767px){
     h1{
         width: 100%;
         margin-left: 10%; 
@@ -213,8 +213,7 @@ footer{
     }
 }
 
-
-@media (min-width:769px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px){
     h1{
         width: 100%;
         margin-left: 10%;
@@ -222,8 +221,7 @@ footer{
     #imageFfe{
         display: none;
     }
-    .tableau{ 
-        
+    .tableau{  
         flex-direction: column;
         height: auto;
         width: 100%;

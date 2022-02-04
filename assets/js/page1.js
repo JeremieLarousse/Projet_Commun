@@ -1,19 +1,20 @@
 function sexe(){
-
     if (selects.selectedIndex == "0"){}
-
     else if (selects.selectedIndex == "1"){}
-
 }
 
 function envoyer(){
-    let indication = document.getElementById("renseignements").value;
-    if (typeof indication === String){
         window.location = "../pages/page2.html"
-    } else {
-    alert("Invalide"); 
-    }
 }
+
+// function envoyer(){
+//     let indication = document.getElementById("renseignements").value;
+//     if (typeof indication === String){
+//         window.location = "../pages/page2.html"
+//     } else {
+//     alert("Invalide"); 
+//     }
+// }
 
 // function envoyer(){
 //     // let indication = document.getElementById("renseignements").value;

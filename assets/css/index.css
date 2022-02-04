@@ -24,11 +24,11 @@ body{
 }
 
 #pseudo{
-text-align: center;
+    text-align: center;
 }
 
 #mdp{
-text-align: center;
+    text-align: center;
 }
 
 input{
@@ -102,7 +102,7 @@ footer{
     }
 }
 
-@media (min-width:481px) and (max-width:768px){
+@media (min-width:481px) and (max-width:767px){
     #texteCentral{  
         margin-top: 5px;
         margin-left: 21%;
@@ -116,7 +116,7 @@ footer{
     }
 }
 
-@media (min-width:769px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px){
     #texteCentral{  
         margin-top: 5px;
         margin-left: 26%;
