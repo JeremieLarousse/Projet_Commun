@@ -1,5 +1,3 @@
-
-
 function Soumettre(){
     let ToDoToDo= document.getElementById('entrer').value;
     let li = document.createElement('li');
@@ -27,9 +25,8 @@ function Soumettre(){
     }
 }
 
-// let myNodelist = document.getElementsByTagName('li');
  let myNodelist = document.getElementsByClassName('liste');
-let i = '';
+    let i = '';
     for (let i = 0; i < myNodelist.length; i++){     
         let span = document.createElement('span'); 
         let dtxt = document.createTextNode('\u00D7');

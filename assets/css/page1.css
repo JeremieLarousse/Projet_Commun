@@ -127,11 +127,17 @@ footer{
     margin-left: 5%;
 }  
     
-#droite{   
-    color: white;  
-    margin-left: 80%;
-    text-align: right;  
+#mail{
+   margin-left: 36%;
+   color: white;
 }
+
+#droite{   
+    color: white;
+    margin-left: 40%;
+    text-align: right; 
+}
+
 
 @media screen and (max-width:480px){
 

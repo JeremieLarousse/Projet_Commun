@@ -72,9 +72,14 @@ footer{
     margin-left: 5%;
 }  
     
+#mail{
+   margin-left: 36%;
+   color: white;
+}
+
 #droite{   
     color: white;
-    margin-left: 80%;
+    margin-left: 40%;
     text-align: right; 
 }
 
@@ -123,6 +128,5 @@ footer{
         margin-top: auto;
         height: 53px;
     }
-
 }
 
